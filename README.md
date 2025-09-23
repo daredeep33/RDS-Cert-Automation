@@ -52,7 +52,3 @@ This repository contains a PowerShell script to automatically renew a Tailscale-
     -   **Run as**: `SYSTEM`
     -   **Configure for**: `Windows Server 2019`
     -   Check **"Run with highest privileges"**.
-
-## Security
-
-The `.gitignore` file is configured to prevent your `config.ps1` file and any downloaded certificate files (`.pfx`, `.crt`, `.key`) from being committed to the repository. **Never remove `config.ps1` from your `.gitignore` file.**
